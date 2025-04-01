@@ -16,8 +16,8 @@ def create_retriever() -> Any:
     This function performs the following steps:
     1. Loads a PDF document(place your PDF file in the data folder)
     2. Splits the document into manageable chunks
-    3. nCreates embeddings for each chunk
-    4. nBuilds a FAISS vector store from the embeddings
+    3. Creates embeddings for each chunk
+    4. Builds a FAISS vector store from the embeddings
     5. Return a retriever interface to ther vector store
     
     Returns: 
